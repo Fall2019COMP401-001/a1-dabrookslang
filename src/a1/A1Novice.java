@@ -33,7 +33,7 @@ public class A1Novice {
 					total += items*price;
 		}
 				String quad = String.format("%.2f", total);
-				System.out.println(initial + ". " + lastnames + " " + quad);
+				System.out.println(initial + ". " + lastnames + ": " + quad);
 		}
 	scan.close();	
 	}
