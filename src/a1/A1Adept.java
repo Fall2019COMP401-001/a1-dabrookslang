@@ -64,7 +64,7 @@ public class A1Adept {
 				bigAmount = custTotals[z];
 			}
 		}
-		System.out.println("Biggest: " + bigSpender + "(" + String.format("%.2f", bigAmount) + ")");
+		System.out.println("Biggest: " + bigSpender + " (" + String.format("%.2f", bigAmount) + ")");
 		
 		
 		// find the smallest spender by comparing everyones price in the arrays just made
@@ -77,7 +77,7 @@ public class A1Adept {
 				smallAmount = custTotals[a];
 			}
 		}
-		System.out.println("Smallest: " + smallSpender + "(" + String.format("%.2f", smallAmount) + ")");
+		System.out.println("Smallest: " + smallSpender + " (" + String.format("%.2f", smallAmount) + ")");
 	
 	
 		//find the average by dividing allTotal by array.length
