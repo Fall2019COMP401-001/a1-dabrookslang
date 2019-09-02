@@ -82,7 +82,7 @@ public class A1Adept {
 	
 		//find the average by dividing allTotal by array.length
 		double avg = (allTotal/custNames.length);
-		System.out.println("Average: " + String.format("%.2f", avg) + ")");
+		System.out.println("Average: " + String.format("%.2f", avg));
 
 	}
 		
