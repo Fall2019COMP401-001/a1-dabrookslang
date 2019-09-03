@@ -49,7 +49,7 @@ public class A1Jedi {
 						} totalBought[index] += numberOfItem;
 					}
 					
-					//Print message for each item
+					//Print message for count of items
 					for (int i=0; i <itemCount; i++) {
 						if(numberOfCust[i]==0) {
 							System.out.println("No customers bought " + itemNames.get(i));
