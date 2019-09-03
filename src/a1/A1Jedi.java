@@ -53,7 +53,7 @@ public class A1Jedi {
 					for (int z=0; z <itemCount; z++) {
 						if(numberOfCust[i]==0) {
 							System.out.println("No customers bought " + itemNames.get(i));
-						} else { System.out.println(totalBought[i] + " customers bought " + numberOfCust[i] + " " + itemNames.get(i));
+						} else { System.out.println(numberOfCust[i] + " customers bought " + totalBought[i] + " " + itemNames.get(i));
 					}
 					
 					
