@@ -48,7 +48,8 @@ public class A1Jedi {
 							numberOfCust[index] += 1;
 						} totalBought[index] += numberOfItem;
 					}
-					
+				}
+					end
 					//Print message for count of items
 					for (int i=0; i <itemCount; i++) {
 						if(numberOfCust[i]==0) {
@@ -58,5 +59,4 @@ public class A1Jedi {
 					
 				}
 	}
-}
 }
