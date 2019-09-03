@@ -35,8 +35,11 @@ public class A1Jedi {
 				
 				for (int i=0; i<custCount; i++) {
 					boolean[] prevBought = new boolean[itemCount];
+					//SCan cust names into array
 					custNames[i] = scan.next() + " " + scan.next();
+					// Take count of items bought by cust
 					int custItemCount = scan.nextInt();
+					// How many and which of each item and use boolean test to add number of customers who bought each item
 					for (int x=0; x<custItemCount; x++) {
 						int numberOfItem = scan.nextInt();
 						int index = itemNames.indexOf(scan.next());
@@ -54,4 +57,5 @@ public class A1Jedi {
 					
 				}
 	}
+}
 }
