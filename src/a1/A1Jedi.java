@@ -46,12 +46,14 @@ public class A1Jedi {
 						if (prevBought[index] == false) {
 							prevBought[index] = true;
 							numberOfCust[index] += 1;
-						} totalBought[index] += custItemCount;
+						} totalBought[index] += numberOfItem;
 					}
+					
+					//Print message for each item
 					for (int z=0; z <itemCount; z++) {
 						if(numberOfCust[i]==0) {
 							System.out.println("No customers bought " + itemNames.get(i));
-						} else { System.out.println(totalBought[i] + "customers bought " + numberOfCust[i] + itemNames.get(i));
+						} else { System.out.println(totalBought[i] + " customers bought " + numberOfCust[i] + " " + itemNames.get(i));
 					}
 					
 					
